@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>assigment2</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li>HOME</li>
+              <li>PRODUCT</li>
+              <li>GALLERY</li>
+              <li>BLOG</li>
+              <li>MY INVENTORY</li>
+          </ul>
+      </nav>
+  </header>
+        <main><div class="jumbotron">
+            <div class="left">
+                <img src="karin1.jpeg" alt="">
+                <section>
+                <h2 id="nama">Karinda Sheira Octavia</h2>
+                <p id="role">Front End Designer</p>
+                <div class="button">
+                    <button class="kontak"><a href="">Edit</a></button>
+                    <button class="resume"><a href="">Resume</a></button>
+                </div>
+            </section>
+            
+            <div class="line"></div>
+            <div class="right">
+                <h4><b>Availibility</b></h4>
+                <h4><b>Usia</b></h4>
+                <h4><b>Lokasi</b></h4>
+                <h4><b>Pengalaman</b></h4>
+                <h4><b>Email</b></h4>
+        </div>
+        <div class="top-right">
+            <p id="availability">Full Time</p>
+            <p id="age">21</p>
+            <p id="lokasi">Depok</p>
+            <p id="Experience">2</p>
+            <p id="email">Karinda235@gmail.com</p> 
+        </div>
+            </div>   
+    </div>
+        </main>
+    <div class="container">
+      <div class="form">
+        <label for="nama"><b>Nama</b></label><br/>
+        <input type="text" name="nama" id="inputnama" class="input"/><br />
+        <label for="role" class="form-label"><b>Role</b></label> <br/>
+        <input type="text" name="role" id="inputrole" class="input"/><br/>
+        <label for="availability" class="form-label"><b>Availability</b></label><br/>
+        <input type="text" name="availability" id="inputavailability" class="input"/><br/>
+        <label for="age" class="form-label" size="200%"><b>Age</b></label><br/>
+        <input type="text" name="age" id="inputage" class="input"/><br/>
+        <label for="lokasi" class="form-label"><b>Location</b></label><br />
+        <input type="text" name="lokasi" id="inputlokasi" class="input"/><br/>
+        <label for="Experience"><b>Experience</b></label><br/>
+        <input type="text" name="Experience" id="inputExperience" class="input"/><br />
+        <label for="email" class="form-label"><b>Email</b></label><br/>
+        <input type="text" name="email" id="inputemail" class="input"/><br/>
+        <button type="submit" class="btn" onClick="editData()">SUBMIT</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
